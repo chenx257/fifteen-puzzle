@@ -1,0 +1,45 @@
+/*  CSE154 Web Programming
+    Instructor: Allison Obourn
+    TA Section AO: Joshua Rasmusse
+    Student: Zhihong Cheng
+    My homework assignment #8
+      
+    css file for a 15 puzzle game*/
+
+body {
+    font: 14pt cursive;
+}
+
+h1, p, #puzzlearea, #controls, #output, #w3c {
+    text-align: center;
+}
+
+a {
+    display: inline-block;
+}
+#puzzlearea {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+}
+.puzzle {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    border: 5px solid black;
+    font-size: 40pt;
+}
+.highlight:hover {
+    border-color: red;
+    color: red;
+    cursor: pointer;
+}
+#output {
+    font-size: 24pt;
+    color: orangered;
+    font-style: italic;
+}
+#output p {
+    margin: 0px;
+}
